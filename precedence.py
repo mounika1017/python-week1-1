@@ -1,0 +1,12 @@
+expression="5+3*2"
+result=eval(expression)
+print("result=",result)
+expression="2*3**2"
+result=eval(expression)
+print("result=",result)
+expression="2**3**2"
+result=eval(expression)
+print("result=",result)
+expression="(2**3)**2"
+result=eval(expression)
+print("result=",result)
